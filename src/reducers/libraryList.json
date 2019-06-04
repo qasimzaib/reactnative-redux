@@ -1,0 +1,59 @@
+[
+	{
+		"id": 1,
+		"title": "Webpack",
+		"description": "Webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging"
+	}, {
+		"id": 2,
+		"title": "React",
+		"description": "React is a JavaScript library created by Facebook. React is a User Interface (UI) library. React is a tool for building UI components"
+	}, {
+		"id": 3,
+		"title": "Redux",
+		"description": "Redux helps you write applications that behave consistently, run in different environments (client, server, and native), and are easy to test."
+	}, {
+		"id": 4,
+		"title": "React Native",
+		"description": "React Native is a JavaScript framework for writing real, natively rendering mobile applications for iOS and Android"
+	}, {
+		"id": 5,
+		"title": "ESLint",
+		"description": "ESLint is an open source JavaScript linting utility originally created by Nicholas C. Zakas in June 2013. Code linting is a type of static analysis that is frequently used to find problematic patterns or code that doesn't adhere to certain style guidelines."
+	}, {
+		"id": 6,
+		"title": "Axios",
+		"description": "Axios is a Javascript library used to make HTTP requests from node.js or XMLHttpRequests"
+	}, {
+		"id": 7,
+		"title": "Babel",
+		"description": "Babel is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript in current and older browsers"
+	}, {
+		"id": 8,
+		"title": "Webpack",
+		"description": "Webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging"
+	}, {
+		"id": 9,
+		"title": "React",
+		"description": "React is a JavaScript library created by Facebook. React is a User Interface (UI) library. React is a tool for building UI components"
+	}, {
+		"id": 10,
+		"title": "Redux",
+		"description": "Redux helps you write applications that behave consistently, run in different environments (client, server, and native), and are easy to test."
+	}, {
+		"id": 11,
+		"title": "React Native",
+		"description": "React Native is a JavaScript framework for writing real, natively rendering mobile applications for iOS and Android"
+	}, {
+		"id": 12,
+		"title": "ESLint",
+		"description": "ESLint is an open source JavaScript linting utility originally created by Nicholas C. Zakas in June 2013. Code linting is a type of static analysis that is frequently used to find problematic patterns or code that doesn't adhere to certain style guidelines."
+	}, {
+		"id": 13,
+		"title": "Axios",
+		"description": "Axios is a Javascript library used to make HTTP requests from node.js or XMLHttpRequests"
+	}, {
+		"id": 14,
+		"title": "Babel",
+		"description": "Babel is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript in current and older browsers"
+	}
+]

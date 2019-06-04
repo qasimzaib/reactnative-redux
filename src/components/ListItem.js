@@ -1,16 +1,40 @@
 import React, { Component } from 'react';
-import { Text, TouchableWithoutFeedback, View } from 'react-native';
+import {
+	Text,
+	TouchableWithoutFeedback,
+	View,
+	UIManager,
+	Platform,
+	LayoutAnimation
+} from 'react-native';
 import { connect } from 'react-redux';
 import { CardSection } from './common';
 import * as actions from '../actions';
 
 class ListItem extends Component {
+	constructor() {
+		super();
+		if (Platform.OS === 'android') {
+			// eslint-disable-next-line no-unused-expressions
+			UIManager.setLayoutAnimationEnabledExperimental &&
+			UIManager.setLayoutAnimationEnabledExperimental(true);
+		}
+	}
+
+	componentWillUpdate() {
+		LayoutAnimation.spring();
+	}
+
 	renderDescription() {
 		const { expanded, library } = this.props;
 
 		if (expanded) {
 			return (
-				<Text>{library.description}</Text>
+				<CardSection>
+					<Text style={{ flex: 1 }}>
+						{library.description}
+					</Text>
+				</CardSection>
 			);
 		}
 	}

@@ -1,3 +1,3 @@
-import libraryList from './libraryList.json';
+import data from './libraryList.json';
 
-export default () => libraryList;
+export default () => data;

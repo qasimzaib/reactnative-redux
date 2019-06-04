@@ -1,10 +1,9 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 import { connect } from 'react-redux';
 
 class LibraryList extends Component {
 	render() {
-		//console.log(this.props);
-		return;
+		return [];
 	}
 }
 
